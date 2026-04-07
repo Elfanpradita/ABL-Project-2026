@@ -1,6 +1,6 @@
 from aiogram import Router
 from aiogram.types import Message
-from bot.app.services.api_client import get_status
+from app.services.api_client import get_status
 
 router = Router()
 

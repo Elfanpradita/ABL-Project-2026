@@ -1,7 +1,7 @@
 from aiogram import Bot, Dispatcher
 import asyncio
 import os
-from bot.app.handlers.command import router
+from app.handlers.command import router
 
 BOT_TOKEN = os.getenv("BOT_TOKEN")
 
